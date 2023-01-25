@@ -3,12 +3,28 @@
 
 version '1.0.0'
 author 'Cfx.re <root@cfx.re>'
-description 'Handles spawning a player in a unified fashion to prevent resources from having to implement custom spawn logic.'
+description 'Provides baseline chat functionality using a NUI-based interface.'
 repository 'https://github.com/citizenfx/cfx-server-data'
 
-client_script 'spawnmanager.lua'
+ui_page 'dist/ui.html'
+
+client_script 'cl_chat.lua'
+server_script 'sv_chat.lua'
+
+files {
+  'dist/ui.html',
+  'dist/index.css',
+  'html/vendor/*.css',
+  'html/vendor/fonts/*.woff2',
+}
 
 fx_version 'adamant'
 games { 'rdr3', 'gta5' }
-
 rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aware my resources *will* become incompatible once RedM ships.'
+
+dependencies {
+  'yarn',
+  'webpack'
+}
+
+webpack_config 'webpack.config.js'

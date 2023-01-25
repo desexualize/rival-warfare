@@ -3,12 +3,13 @@
 
 version '1.0.0'
 author 'Cfx.re <root@cfx.re>'
-description 'Handles spawning a player in a unified fashion to prevent resources from having to implement custom spawn logic.'
+description 'Handles old-style server player management commands.'
 repository 'https://github.com/citizenfx/cfx-server-data'
 
-client_script 'spawnmanager.lua'
+client_script 'rconlog_client.lua'
+server_script 'rconlog_server.lua'
 
 fx_version 'adamant'
-games { 'rdr3', 'gta5' }
+games { 'gta5', 'rdr3' }
 
 rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aware my resources *will* become incompatible once RedM ships.'

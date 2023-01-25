@@ -8,7 +8,7 @@ RegisterServerEvent('baseevents:leftVehicle')
 
 AddEventHandler('baseevents:onPlayerKilled', function(killedBy, data)
 	local victim = source
-	
+
 	RconLog({msgType = 'playerKilled', victim = victim, attacker = killedBy, data = data})
 end)
 

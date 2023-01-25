@@ -3,9 +3,9 @@ if not IsDuplicityVersion() then
   CLIENT_CONFIG.playerModel = 'mp_m_freemode_01'
 
   CLIENT_CONFIG.squadCoords = {
-    right = vector3(46.15, -1028.21, 14.9),
-    middle = vector3(45.94, -1026.91, 14.9),
-    left = vector3(47.01, -1026.21, 14.9),
+    right = vector3(46.15, -1028.21, 14.9), -- spawn coords
+    middle = vector3(45.94, -1026.91, 14.9), -- spawn coords
+    left = vector3(47.01, -1026.21, 14.9), -- spawn coords
   }
 
   CLIENT_CONFIG.camCoords = vector3(42.27, -1025.16, 15.9)

@@ -3,12 +3,12 @@
 
 version '1.0.0'
 author 'Cfx.re <root@cfx.re>'
-description 'Handles spawning a player in a unified fashion to prevent resources from having to implement custom spawn logic.'
+description 'Limits the number of players to the amount set by sv_maxclients in your server.cfg.'
 repository 'https://github.com/citizenfx/cfx-server-data'
 
-client_script 'spawnmanager.lua'
+client_script 'client.lua'
+server_script 'server.lua'
 
 fx_version 'adamant'
-games { 'rdr3', 'gta5' }
-
+games { 'gta5', 'rdr3' }
 rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aware my resources *will* become incompatible once RedM ships.'
