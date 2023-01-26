@@ -30,36 +30,32 @@ SHARED_CONFIG.vendorCoords = {
 }
 
 SHARED_CONFIG.weaponNames = {
-  [GetHashKey('weapon_glock22')] = {'Glock 22', 'Pistol'},
-  [GetHashKey('weapon_m203')] = {'M203', 'AR'},
-  [GetHashKey('weapon_m700')] = {'M700a', 'Sniper'},
-  [GetHashKey('weapon_m870')] = {'M870', 'Shotgun'},
-  [GetHashKey('weapon_mossberg590')] = {'Mossberg 590', 'Shotgun'},
-  [GetHashKey('weapon_nsr')] = {'NSR', 'AR'},
-  [GetHashKey('weapon_sig516')] = {'SIG 516', 'AR'},
-  [GetHashKey('weapon_sigmpx')] = {'SIGMPX', 'SMG'},
-  [GetHashKey('weapon_sr25')] = {'SR25', 'Sniper'},
-  [GetHashKey('weapon_svd')] = {'SVD', 'Sniper'},
-  [GetHashKey('weapon_thompson')] = {'Thompson', 'SMG'},
+  [GetHashKey('WEAPON_GLOCK22')] = {'Glock 22', 'Pistol'},
+  [GetHashKey('WEAPON_M203')] = {'M203', 'AR'},
+  [GetHashKey('WEAPON_M700')] = {'M700', 'Sniper'},
+  [GetHashKey('WEAPON_M870')] = {'M870', 'Shotgun'},
+  [GetHashKey('WEAPON_mossberg590')] = {'Mossberg 590', 'Shotgun'},
+  [GetHashKey('WEAPON_SIG516')] = {'SIG 516', 'AR'},
+  [GetHashKey('WEAPON_MPX')] = {'SIGMPX', 'SMG'},
+  [GetHashKey('WEAPON_SR25')] = {'SR25', 'AR'},
+  [GetHashKey('WEAPON_svd')] = {'SVD', 'Sniper'},
 }
 
 SHARED_CONFIG.inventoryItems = {
   ['AR Ammo'] = {group = 'ammo', price = 2500},
   ['Glock 22'] = {group = 'weapon', price = 2500},
   ['M203'] = {group = 'weapon', price = 2500},
-  ['M700a'] = {group = 'weapon', price = 2500},
+  ['M700'] = {group = 'weapon', price = 2500},
   ['M870'] = {group = 'weapon', price = 2500},
   ['Mossberg 590'] = {group = 'weapon', price = 2500},
-  ['NSR'] = {group = 'weapon', price = 2500},
   ['Pistol Ammo'] = {group = 'ammo', price = 2500},
   ['Shotgun Ammo'] = {group = 'ammo', price = 2500},
   ['SIG 516'] = {group = 'weapon', price = 2500},
-  ['SIGMpx'] = {group = 'weapon', price = 2500},
+  ['SIGMPX'] = {group = 'weapon', price = 2500},
   ['SMG Ammo'] = {group = 'ammo', price = 2500},
   ['Sniper Ammo'] = {group = 'ammo', price = 2500},
   ['SR25'] = {group = 'weapon', price = 2500},
   ['SVD'] = {group = 'weapon', price = 2500},
-  ['Thompson'] = {group = 'weapon', price = 2500},
 }
 
 SHARED_CONFIG.levelSystem = {
