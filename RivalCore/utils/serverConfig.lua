@@ -47,17 +47,16 @@ if IsDuplicityVersion() then
     ['AR Ammo'] = 5,
     ['Glock 22'] = 4,
     ['M203'] = 2,
-    ['M700a'] = 1,
+    ['M700'] = 1,
     ['M870'] = 4,
     ['Mossberg 590'] = 4,
-    ['NSR'] = 2,
     ['Pistol Ammo'] = 7,
     ['SIG 516'] = 2,
-    ['SIGMpx'] = 3,
+    ['SIGMPX'] = 3,
     ['SMG Ammo'] = 6,
     ['Sniper Ammo'] = 3,
     ['SR25'] = 1,
-    ['Thompson'] = 4,
+    ['SVD'] = 1,
   }
 
   SERVER_CONFIG.gameRoutes = {
