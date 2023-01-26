@@ -23,13 +23,13 @@ if IsDuplicityVersion() then
   }
 
   SERVER_CONFIG.hooks = {
-    ['Admin'] = '',
-    ['Anticheat'] = '',
-    ['Chat'] = '',
-    ['Connection'] = '',
-    ['Crash'] = '',
-    ['Developer'] = '',
-    ['Error'] = '',
+    ['Admin'] = 'https://discord.com/api/webhooks/1067968379731836978/IERIsv4SHdAw6aef1IFf3K17hdEjsTT-a-Tb2zbHK0h3nPO4rIKfL9QC2f-ajsjh18qP',
+    ['Anticheat'] = 'https://discord.com/api/webhooks/1067968515220443197/Jx5JgzAU4uB1WIKutCHtsEEM4YSkpBrYssJh2b5o37ayBYaA8QP0ybjfp_mTg2i2QV2O',
+    ['Chat'] = 'https://discord.com/api/webhooks/1067968623408332821/O80CPRUetQUHO38d7361jbTGHzKBMuoM2RiAWLagOt-Mxk-We9rZKGJ0NJIwwC2KHNo6',
+    ['Connection'] = 'https://discord.com/api/webhooks/1067968790966566952/tAxyRrvG3p-3yWaniKOOUdhoiXuWYcCqNBhB8YPZB1NnMSryvtBIgv5lLiYuqnsqoxXR',
+    ['Crash'] = 'https://discord.com/api/webhooks/1067968916653092914/1Mwmk1AP-hKnRsxPwixJr8dnoNET6P2h1koHnP4ahjq6Ld5R4bzPTgHv-acK18lCFOww',
+    ['Developer'] = 'https://discord.com/api/webhooks/1067969029463093248/A88cqJuWQ03TOhlHExvevCnwoFMksAcV9mT40gL3X4zBGmW3-ZWZmknZXv-vubHmzQHF',
+    ['Error'] = 'https://discord.com/api/webhooks/1067969137973932153/WhiSBzeqmdkXyspHTQ433xKHSGE5bEkj38XEIpuk8X9_gH2hcUvfo98AsAzFbr5CZV4M',
   }
 
   SERVER_CONFIG.crateCoords = {
