@@ -1,15 +1,13 @@
 RECOIL = {}
 RECOIL.threadTick = 750
 RECOIL.weaponRate = {
-  [GetHashKey('WEAPON_RE6')] = 5.0,
-  [GetHashKey('WEAPON_AR15')] = 0.3,
+  [GetHashKey('WEAPON_M203')] = 0.3,
+  [GetHashKey('WEAPON_SR25')] = 0.3,
   [GetHashKey('WEAPON_SIG516')] = 0.25,
   [GetHashKey('WEAPON_GLOCK22')] = 0.1,
-  [GetHashKey('WEAPON_MP9')] = 0.15,
-  [GetHashKey('WEAPON_REMINGTON870')] = 0.4,
-  [GetHashKey('WEAPON_MOSSBERG590')] = 0.2,
-  [GetHashKey('WEAPON_M4W')] = 0.3,
-  [GetHashKey('WEAPON_HONEYBADGER')] = 0.2,
+  [GetHashKey('WEAPON_MPX')] = 0.15,
+  [GetHashKey('WEAPON_M870')] = 0.4,
+  [GetHashKey('WEAPON_mossberg590')] = 0.2,
 }
 
 function RECOIL:initialize()
